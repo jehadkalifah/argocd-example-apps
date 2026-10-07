@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: kuokou1/ks-guestbook-demo:0.2
-  tag: 0.1
+  repository: kuokou1/ks-guestbook-demo
+  tag: 0.2
   pullPolicy: IfNotPresent
 
 service:
