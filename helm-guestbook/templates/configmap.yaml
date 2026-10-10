@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: db-config
   annotations:
-    argocd.argoproj.io/sync-wave: "10"
+    argocd.argoproj.io/sync-wave: "20"
 data:
   APP_ENV: "development"
   APP_PORT: "8080"
